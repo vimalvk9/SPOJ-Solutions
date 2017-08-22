@@ -49,7 +49,6 @@ int main()
           continue;
        }
 
-
       if(n%2 == 0)
        cout << phi(n) << endl;
       else
