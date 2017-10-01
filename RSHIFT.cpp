@@ -12,7 +12,7 @@ int main()
   while(t--)
   {
       scanf("%llu",&n);
-      n >>= 1;
+      n = (n/(long long int)2);
       printf("%llu\n",n);
   }
   return 0;
